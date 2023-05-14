@@ -607,3 +607,143 @@ body:not(.user-is-tabbing) a:focus {
         padding: var(--gutter-medium) 0;
     } 
 }
+.container-fluid {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 20px;
+    padding: auto;
+  }
+  .container-fluid .gard {
+    position: relative;
+    width: 350px;
+    height: 230px;
+    padding: 15px;
+    background: linear-gradient(60deg, #151516 0%, #1d2229 100%);
+    overflow: hidden;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  }
+  .container-fluid .gard h3 {
+    z-index: 99;
+    position: absolute;
+    bottom: 25px;
+    right: 130px;
+    font-size: 30px;
+    font-weight: 500;
+    color: #fff;
+    pointer-events: none;
+    transition: 0.2s ease;
+    text-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  }
+  /*  */
+  .container-fluid .gard p {
+    z-index: 99;
+    position: absolute;
+    bottom: 30px;
+    right: 130px;
+    width: 150px;
+    color: #fff;
+    opacity: 0;
+    font-size: 12px;
+    text-align: right;
+    letter-spacing: 1px;
+    transition: 0.2s ease;
+  }
+  .container-fluid .gard span {
+    z-index: 99;
+    position: absolute;
+    top: 60px;
+    right: 35px;
+    color: #fff;
+    font-size: 12px;
+    letter-spacing: 1px;
+    writing-mode: vertical-lr;
+    transition: 0.2s ease;
+    opacity: 0.7;
+  }
+  .container-fluid .gard .pic {
+    z-index: 100;
+    width: 395px;
+    height: 200px;
+    background-image: url(images/comcampcard.jpg);
+    background-size: cover;
+    border-radius: 12px;
+    filter: grayscale(100%);
+    transition: 0.3s ease;
+  }
+  /*  */
+  .container-fluid .gard button {
+    position: absolute;
+    right: 30px;
+    bottom: 40px;
+    width: 30px;
+    height: 30px;
+    background-color: #772a9b;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    outline: none;
+    opacity: 1;
+    transition: 0.3s ease;
+  }
+  .container-fluid .gard:hover button {
+    transform: scale(16.5);
+    opacity: 0.5;
+  }
+  .container-fluid .gard:hover h3 {
+    bottom: 80px;
+    right: 50px;
+  }
+  .container-fluid .gard:hover p {
+    opacity: 1;
+    right: 60px;
+  }
+  .container-fluid .gard:hover span {
+    opacity: 0;
+    top: 80px;
+  }
+  .container-fluid .gard:hover .pic {
+    filter: grayscale(0);
+    width: 470px;
+  }
+  .container-fluid .gard2 .pic {
+    background-image: url(images/kaset3.jpg);
+    transition: 0.3s ease;
+  }
+  .container-fluid .gard2 button {
+    background-color: #316eca;
+  }
+  
+  .container-fluid .gard3 .pic {
+    background-image: url(images/cspic.JPG);
+    transition: 0.3s ease;
+  }
+  .container-fluid .gard3 button {
+    background-color: #2faa3f;
+  }
+  .container-fluid .gard4 .pic {
+    background-image: url(images/TM1.jpg);
+    transition: 0.3s ease;
+  }
+  .container-fluid .gard4 button {
+    background-color: #fcde5a;
+  }
+  .container-fluid .gard5 .pic {
+    background-image: url(images/itc.jpg);
+    transition: 0.3s ease;
+  }
+  .container-fluid .gard5 button {
+    background-color: rgb(255, 174, 0);
+  }
+  .container-fluid .gard6 .pic {
+    background-image: url(images/caipic.jpg);
+    transition: 0.3s ease;
+  }
+  .container-fluid .gard6 button {
+    background-color: #c77171;
+  }
