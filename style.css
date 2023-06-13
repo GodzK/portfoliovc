@@ -400,9 +400,9 @@ body:not(.user-is-tabbing) a:focus {
 /* --------------------------------------- */
 
 .header {
-    background: linear-gradient(rgba(0,0,0, .9), rgba(0,0,0, .6)), 
-        url("/images/pkpresident.jpg");
-    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.6)),
+        url('/images/pkpresident.jpg');
+    height: 100vh; /* เปลี่ยน 100vh เป็น 100% */
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -500,7 +500,11 @@ body:not(.user-is-tabbing) a:focus {
         height: 4rem;
     }
 }
-
+@media (max-width: 1024px) {
+    .header {
+        height: 100%; /* เปลี่ยน 100vh เป็น 100% */
+    }
+}
 /* --------------------------------------- */
 /* ----- Clients ----- */
 /* --------------------------------------- */
