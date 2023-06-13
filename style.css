@@ -500,6 +500,13 @@ body:not(.user-is-tabbing) a:focus {
         height: 4rem;
     }
 }
+@media(max-width: 768px) and (max-height: 1024px) {
+    header {
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
 
 /* --------------------------------------- */
 /* ----- Clients ----- */
