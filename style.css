@@ -432,18 +432,6 @@ header {
         transform: scale(.8);
     }
 }
-@media (min-width: 768px) and (max-width: 834px) {
-    .header {
-        background-size: contain;
-    }
-}
-
-/* iPad Gen 10, iPad Air 4, iPad Air 5 */
-@media (min-width: 835px) and (max-width: 1112px) {
-    .header {
-        background-size: contain;
-    }
-}
 
 /* --------------------------------------- */
 /* ----- Work ----- */
