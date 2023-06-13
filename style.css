@@ -399,11 +399,11 @@ body:not(.user-is-tabbing) a:focus {
 /* ----- Header ----- */
 /* --------------------------------------- */
 
-.header {
+header {
     background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.6)),
         url('/images/pkpresident.jpg');
-    height: 100vh; /* เปลี่ยน 100vh เป็น 100% */
-    background-size: cover;
+    height: 100vh;
+    background-size: contain; /* เปลี่ยนค่านี้ */
     background-position: center;
     background-attachment: fixed;
     font-size: var(--font-size-normal);
