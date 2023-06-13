@@ -407,7 +407,6 @@ header {
     background-position: center;
     background-attachment: fixed;
     font-size: var(--font-size-normal);
-    background-repeat: no-repeat;
 }
 
 .header__text {
