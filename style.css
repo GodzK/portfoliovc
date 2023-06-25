@@ -416,6 +416,14 @@ header {
     background-position: center center;
 }
 
+@media screen and (max-width: 768px) {
+    header {
+        background-attachment: scroll;
+    }
+}
+    
+
+
 .header__text {
     position: absolute;
     top: 50%;
